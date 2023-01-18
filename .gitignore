@@ -1,0 +1,25 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Generated text files
+/src/tools/text-output.txt
+tests/selenium-pageload/selenium_drivers/win32_chrome_96/chromedriver.exe
